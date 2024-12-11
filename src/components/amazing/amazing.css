@@ -1,0 +1,42 @@
+.amazing {
+    background-color: #fafafa;
+    width: 88%;
+    padding: 70px 0;
+    box-shadow: 50px 130px 100px 0 rgba(0, 0, 0, 0.15);
+    position: relative;
+    margin-top: -180px;
+    margin-bottom: -180px;
+}
+
+.amazing__container {
+    max-width: 910px;
+    margin: 0 auto;
+}
+
+.amazing__title {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 123%;
+    color: #4d533c;
+    max-width: 822px;
+}
+
+@media (max-width: 976px) {
+    .amazing {
+        width: 100%;
+    }
+    .amazing__title {
+        font-size: 50px;
+        line-height: 100%;
+        max-width: 822px;
+
+    }
+}
+
+@media (max-width: 566px) {
+    .amazing__title {
+        font-size: 39px;
+        line-height: 97%;
+        max-width: 822px;
+    }
+}

@@ -1,0 +1,123 @@
+.services {
+    z-index: 0;
+    position: relative;
+}
+
+.servises__inner {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 150px;
+    gap: 10px;
+}
+
+/* -----------------LEFT---------------- */
+
+.services__left {
+    max-width: 474px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.services__subtitle {
+    font-size: 14px;
+    color: #4d533ce6;
+}
+
+.services__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 128%;
+    color: #4d533c;
+}
+
+.services__text {
+    font-size: 16px;
+    line-height: 162%;
+    color: #21384299;
+    margin-bottom: 42px;
+}
+
+/* -----------------RIGHT---------------- */
+
+.services__rigth {
+    box-shadow: 0 100px 100px 0 rgba(0, 0, 0, 0.15);
+    background: #fff;
+    max-width: 474px;
+    height: 644px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    z-index: 0;
+}
+
+.services__description {
+    font-size: 24px;
+    line-height: 167%;
+    color: #4d533c;
+    font-style: italic;
+    padding: 0 40px;
+    margin: 0;
+}
+
+.services__person-container {
+    display: flex;
+    padding: 50px 76px 60px 40px;
+    gap: 30px;
+}
+
+.services__avatar {
+    border-radius: 100%;
+    box-shadow: 20px 25px 43px 0 rgba(0, 0, 0, 0.18);
+}
+
+.services__avatar img {
+    border-radius: 50%;
+    height: 100%;
+} 
+
+.services__person-info {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    justify-content: center;
+}
+
+.services__name {
+    font-weight: 700;
+    font-size: 22px;
+    color: #4d533c;
+}
+
+.services__profession {
+    font-size: 16px;
+    color: #152934;
+}
+
+@media (max-width: 976px) {
+    .servises__inner {
+        margin-top: 150px;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 80px;
+    }
+    .services__name {
+        font-size: 16px;
+    }
+    
+    .services__profession {
+        font-size: 12px;
+    }
+    .services__avatar {
+        min-width: 70px;
+    }
+    .services__rigth {
+        height: 400px;
+    }
+    .services__description {
+        font-size: 18px;
+    }
+    .services__left {
+        text-align: center;
+    }
+}

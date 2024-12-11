@@ -1,0 +1,22 @@
+.link {
+    display: inline-block;
+    align-items: center;
+    color: #d4d6d4;
+}
+
+.link span {
+    font-size: 16px;
+    color: inherit;
+}
+
+.link a {
+    font-size: 16px;
+    text-decoration-skip-ink: none;
+    color: inherit;
+}
+
+.link:hover,
+.link:hover span,
+.link:hover a {
+    color: #ffd723;
+}

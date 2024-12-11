@@ -1,0 +1,28 @@
+.feature-text {
+    max-width: 421px;
+}
+
+.feature-text__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 133%;
+    color: #4d533c;
+}
+
+.feature-text__subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: #21384299;
+    margin-bottom: 90px;
+}
+
+@media (max-width: 976px) {
+    .feature-text {
+        margin-right: 0;
+        text-align: center;
+    }
+    .feature-text__subtitle {
+        margin-bottom: 45px;
+    }
+}

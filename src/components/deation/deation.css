@@ -1,0 +1,39 @@
+.deation {
+    padding-bottom: 322px;
+}
+
+.deation__inner {
+    padding-top: 150px;
+}
+
+.deation__main-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 128%;
+    color: #4d533c;
+    max-width: 607px;
+}
+
+.deation__list {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+@media (max-width: 976px) {
+    .deation__list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .deation__inner {
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 557px) {
+    .deation__list {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+}

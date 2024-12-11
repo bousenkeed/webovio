@@ -1,0 +1,11 @@
+.line {
+    height: 1px;
+    background-color: #2138421a;
+    width: 100%;
+}
+
+.line-grey {
+    height: 1px;
+    background-color: #5D6544;
+    width: 100%;
+}

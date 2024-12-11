@@ -1,0 +1,37 @@
+.hero {
+    background-image: url(../../assets/images/bg-hero2.jpg);
+    padding-top: 188px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-weight: 400;
+    padding-bottom: 210px;
+}
+
+.hero__inner {
+    max-width: 616px;
+}
+
+.hero__subtitle {
+    font-size: 14px;
+}
+
+.hero__title {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 123%;
+}
+
+.hero__text {
+    font-size: 16px;
+    line-height: 162%;
+    margin-bottom: 45px;
+}
+
+@media screen and (max-width: 726px){
+    .hero__title {
+        font-size: 50px;
+        line-height: 100%;
+    }
+}
